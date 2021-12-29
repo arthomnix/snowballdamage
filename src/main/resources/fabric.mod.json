@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "snowballdamage",
+  "version": "${version}",
+  "name": "Snowball Damage",
+  "description": "",
+  "authors": [
+    "arthomnix"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/snowballdamage/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "snowballdamage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.*"
+  }
+}
